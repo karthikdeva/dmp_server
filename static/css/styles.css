@@ -1,0 +1,378 @@
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(0, 0%, 30%);
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.box-element {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 200px;
+    -webkit-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+    box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
+}
+
+.product {
+    border-radius: 0 0 4px 4px;
+}
+
+.bg-dark {
+    background-color: #4f868c!important;
+}
+
+#cart-icon {
+    width: 25px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#cart-total {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-12 {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.row-image {
+    width: 100px;
+}
+
+.form-field {
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.cart-row {
+    display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.quantity {
+    display: inline-block;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.chg-quantity {
+    width: 12px;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+    transition: .1s;
+}
+
+.chg-quantity:hover {
+    opacity: .6;
+}
+
+.hidden {
+    display: none!important;
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1280px;
+    }
+}
+
+
+.header {
+    background: #151b23;
+}
+
+.header .brand-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 25px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header .main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-list li {
+    margin: 0 12px;
+    display: inline-block;
+}
+
+.header .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header .nav-list a:hover {
+    color: #f1b300;
+}
+
+.banner-section {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-section .container {
+    position: relative;
+}
+
+.banner-title,
+.animated-image {
+    position: absolute;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 80px;
+    left: 0;
+    top: 120px;
+    width: 58%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 0px 9px 10px rgba(55, 57, 61, 0.6);
+}
+
+.banner-title span {
+    color: #f1b300;
+    display: inline-block;
+    background: rgba(21, 27, 35, 0.9);
+    padding: 0 15px;
+}
+
+.animated-image {
+    right: -1500px;
+    top: 5px;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+.page-section {
+    padding: 40px 0;
+}
+
+.todays-menu-section .container {
+    position: relative;
+    min-height: 500px;
+}
+
+.section-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    color: #f1b300;
+}
+
+.offer-section {
+    background: #f8f8f8;
+}
+
+.offer-section .section-title {
+    color: #151b23;
+    padding-top: 30px;
+}
+
+.food-item {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.offer-section .food-image {
+    max-width: 262px;
+    margin: auto;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    position: relative;
+    min-width: 261px;
+    height: 220px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.offer-section .food-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.offer-section .food-content {
+    text-align: left;
+    padding: 12px;
+}
+
+.offer-section .food-image h5 {
+    background: rgba(21, 27, 35, 0.6);
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+
+.cart-price-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-price-group p {
+    margin-bottom: 0;
+}
+
+.animated-leaf {
+    position: absolute;
+    top: 48px;
+    left: 800px;
+    z-index: -1;
+}
+
+.animated-layer {
+    position: absolute;
+    width: 344px;
+    height: 280px;
+    bottom: 50px;
+    right: 0px;
+    z-index: -1;
+    animation-duration: 13s;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform-origin: center center;
+    animation-timing-function: linear;
+}
+
+.animated-man {
+    position: relative;
+    transform: scale(0.2);
+    -webkit-animation: slideup 1.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slideup 1.5s forwards;
+    animation-delay: 0.5s;
+    transition: all .2s ease-in-out;
+}
+
+.animated-leaf {
+    transform: scale(0.5);
+    -webkit-animation: slideleft 2.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slideleft 2.5s forwards;
+    animation-delay: 0.5s;
+    transition: all .5s ease-in-out;
+}
+
+@-webkit-keyframes slideup {
+    0% {
+        transform: scale(0.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideup {
+    0% {
+        transform: scale(0.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes slideleft {
+    100% {
+        left: 208px;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        transform: scale(0.5) rotate(0deg);
+    }
+    /* 20% {
+        transform: rotate(40deg) scale(0.6);
+    } */
+    50% {
+        transform: rotate(180deg) scale(0.7);
+    }
+    /*  60% {
+        transform: rotate(80deg) scale(0.8);
+    } */
+    100% {
+        left: 208px;
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+
+/* @-webkit-keyframes slide {
+    100% {
+        right: 0;
+    }
+} */
+
+@keyframes slide {
+    100% {
+        right: 0;
+    }
+}
